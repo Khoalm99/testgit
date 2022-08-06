@@ -1,5 +1,32 @@
-h1 {
+/* h1 {
     color: red;
     font-size: 20px;
     
+} */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.name-card {
+  border-radius: 4px;
+  border: 1px solid #000;
+  padding: 24px;
+  width: 200px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  transform: scale(1.2);
 }
